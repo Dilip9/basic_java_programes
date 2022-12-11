@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7208e73d-3dd3-41d6-b88b-12bafbf3fb16" name="Changes" comment="1. Bit count&#10;2. Sum of 2 number&#10;3. Palindrome">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" afterDir="false" />
+    <list default="true" id="7208e73d-3dd3-41d6-b88b-12bafbf3fb16" name="Changes" comment="5. Palindrome&#10;6. ReverseString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Paarlindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Paarlindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,11 +124,19 @@
       <option name="project" value="LOCAL" />
       <updated>1670695789595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="5. Palindrome&#10;6. ReverseString">
+      <created>1670761402832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670761402832</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Bit count&#10;2. Sum of 2 number&#10;3. Palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Bit count&#10;2. Sum of 2 number&#10;3. Palindrome" />
+    <MESSAGE value="5. Palindrome&#10;6. ReverseString" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Palindrome&#10;6. ReverseString" />
   </component>
 </project>
