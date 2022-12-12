@@ -1,4 +1,4 @@
-package interviewquestions;
+package com.algorithm.interviewquestions;
 
 public class DuplicateElementsUsingArrayOn {
 

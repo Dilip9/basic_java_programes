@@ -1,4 +1,4 @@
-package interviewquestions;
+package com.algorithm.interviewquestions;
 /*  Print the   */
 public class SumNaturalNumber {
 
