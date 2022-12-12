@@ -1,6 +1,6 @@
 package org.example;
 
-public class Paarlindrom {
+public class Parlindrom {
 
     public static void main(String[] args){
 

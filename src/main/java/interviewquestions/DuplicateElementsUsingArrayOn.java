@@ -5,7 +5,7 @@ public class DuplicateElementsUsingArrayOn {
     public static void main(String[] args){
         int[] arr = {2,5,3,7,8,4,9,2,6,3,7,8,8,2};
         duplicate(arr); // 1st Approach using 2 for loop.
-        duplicateS(arr);
+        duplicateS(arr); // 2nd Approach using O(n) approach.
     }
 
     private static void duplicateS(int[] arr) {

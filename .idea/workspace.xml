@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7208e73d-3dd3-41d6-b88b-12bafbf3fb16" name="Changes" comment="6. ReverseString">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/DuplicateElementsUsingArrayOn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/SumNaturalNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DuplicatNumver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7208e73d-3dd3-41d6-b88b-12bafbf3fb16" name="Changes" comment="7. DuplicateElementsUsingArrayOn&#10;8. SumNaturalNumbers">
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewquestions/DuplicateElementsUsingArrayOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/DuplicateElementsUsingArrayOn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Paarlindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Parlindrom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paarlindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Paarlindrom" />
+    <configuration name="Parlindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Parlindrom" />
       <module name="javapractice.main" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +117,7 @@
         <item itemvalue="Application.DuplicateElementsUsingArrayOn" />
         <item itemvalue="Application.DuplicatNumver" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.Paarlindrom" />
+        <item itemvalue="Application.Parlindrom" />
         <item itemvalue="Application.SumOfTwoNumber" />
       </list>
     </recent_temporary>
@@ -155,13 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670768676022</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7. DuplicateElementsUsingArrayOn&#10;8. SumNaturalNumbers">
+      <created>1670864575733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670864575733</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Bit count&#10;2. Sum of 2 number&#10;3. Palindrome" />
     <MESSAGE value="5. Palindrome&#10;6. ReverseString" />
     <MESSAGE value="6. ReverseString" />
-    <option name="LAST_COMMIT_MESSAGE" value="6. ReverseString" />
+    <MESSAGE value="7. DuplicateElementsUsingArrayOn&#10;8. SumNaturalNumbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. DuplicateElementsUsingArrayOn&#10;8. SumNaturalNumbers" />
   </component>
 </project>
