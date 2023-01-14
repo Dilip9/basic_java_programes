@@ -1,70 +1,23 @@
 package com.algorithm.multi;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 
 public class demo {
 
-    public static void main(String[] ars){
-        String str = "Java is great Python is also great";
-        int[] arr = {3,4,5,4,5,4};
-        int[] num = {10,5,4,8};
-        int high=num.length;
-
-//        String[] strs = str.split(" ");
-//        int count=1;
-        int frequency = 1;
-//        String[] strs = str.split(" ");
-//        StringBuffer sb  = new StringBuffer();
-//        for(int i=strs.length-1;i>=0;i--){
-//            sb.append(strs[i]+" ");
-//        }
-//        System.out.println("String in reverse order::::: "+sb);
-        HashMap<Integer, Integer> map = new HashMap<>();
-//        HashMap<String, Integer> map = new HashMap<>();
-//        for (int i=0;i<strs.length;i++){
-//            if(map.containsKey(strs[i])){
-//                map.put(strs[i],count++);
-//            }else {
-//                map.put(strs[i], 1);
-//            }
-//        }
-        for(int i=0;i<arr.length;i++){
-            if(map.containsKey(arr[i])){
-                map.put(arr[i],frequency++);
-            }else map.put(arr[i],1);
-        }
-        System.out.println("::::: "+map.entrySet());
+    public static void main(String[] ars) {
 
 
-        quickSort(num,0,high-1);
+        List<Integer> data = Arrays.asList(4,5,6,3,6,2,4,7,9,4,5,6,2,4,6,8);
+
+        System.out.println(":::::::"+data.stream().sorted(Integer::compareTo).collect(Collectors.toList()));
+        System.out.println(":::::::: Distinct data elements::"+data.stream().distinct().sorted(Integer::compareTo).collect(Collectors.toList()));
+
     }
 
-    private static void quickSort(int[] num, int l, int h) {
-        if(l<h){
-        int pivot= partitions(num,l, h);   // low=0, high =num.length
-        quickSort(num, l, pivot-1);
-        quickSort(num,pivot+1,h);
-        }
-        for(int i=0;i<num.length;i++) {
-            System.out.print(" " +num[i]);
-        }
-    }
-
-    private static int partitions(int[] num, int low, int high) {
-        int key = num[high];
-        int i=(low-1);
-        for(int j=low;j<high;j++){
-            if(num[j]<=key){
-                i++;
-                int temp = num[i];
-                num[i] = num[j];
-                num[j] = temp;
-            }
-        }
-        int temp = num[i+1];
-        num[i+1] = num[high];
-        num[high] = temp;
-
-        return i+1;
-    }
 }
