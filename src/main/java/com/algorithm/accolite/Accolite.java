@@ -1,4 +1,4 @@
-package com.algorithm;
+package com.algorithm.accolite;
 
 /*
 * Find missing number from an array of 10 natural numbers eg - {1,2,3,4,5,6,8,9,10} - output should be 7
@@ -7,10 +7,18 @@ package com.algorithm;
 Rearrange the input array so the output should contain all the 0s followed by all the 1s followed by all the 2s. Something like this {0,0,1,1,1,2,2}
 But you are not allowed to use internal AIPs like Collections.sort or Tree Maps and all etc
 *
+* Find the uncommon number between two list integer data array.
+* l1 = Arrays.asList(1,3,5,7),l2 = Arrays.asList(5,1,9);
+*
 *
 *
 * */
 
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Accolite {
 
@@ -21,6 +29,12 @@ public class Accolite {
         int missingNumber = findMissingNumber(arr,n);
         System.out.println(missingNumber);
         zerosOneTwo(mixxData);
+        List<Integer> l1= Arrays.asList(1,3,5,7);
+        List<Integer> l2 = Arrays.asList(5,1,9);
+        List<Integer> result = l1.stream().filter(x ->!l2.contains(x)).collect(Collectors.toList());
+        result.addAll(l2.stream().filter(x ->!l1.contains(x)).collect(Collectors.toList()));//.stream().filter(x ->!l2.contains(x)).collect(Collectors.toList());
+        System.out.println(result);
+
 
     }
 
